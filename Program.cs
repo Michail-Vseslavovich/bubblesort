@@ -1,8 +1,9 @@
-﻿int[] massive = new int[30000];
+﻿int[] massive = new int[100000];
+Random r = new Random();
 for (int i = 0; i <massive.Length; i++)
 {
-    Random r = new Random();
-    massive[i] = r.Next(0,30000);
+    
+    massive[i] = r.Next(0,100000);
 }
 for (int i = 0;i < massive.Length;i++)
 {
